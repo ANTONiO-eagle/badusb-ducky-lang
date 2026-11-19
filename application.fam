@@ -1,0 +1,14 @@
+App(
+    appid="badusb_ducky_lang",
+    name="BadUSB DUCKY_LANG",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="bad_usb_app",
+    stack_size=2 * 1024,
+    fap_libs=["assets", "ble_profile"],
+    fap_icon="icon.png",
+    fap_version="1.0",
+    fap_author="ANTONiO-eagle",
+    fap_description="BadUSB with persistent default keyboard layouts and a DuckyScript DUCKY_LANG command.",
+    targets=["f7"],
+    fap_category="USB",
+)

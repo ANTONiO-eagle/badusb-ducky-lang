@@ -1,0 +1,11 @@
+This application is derived from the BadUSB application in Flipper Zero firmware.
+The upstream firmware is distributed under GNU GPL version 3; source headers and
+copyright notices are retained in the derived files. See LICENSE.
+
+The DUCKY_LANG/default-layout implementation was prepared as a modification of
+that GPL-licensed application. Standalone UI changes replace firmware-internal
+icons with text/empty visuals so the external app can be built with the public
+uFBT SDK. This is an independent community app, not an official Flipper Devices
+release. The exact tested source baseline for this standalone package is the
+Flipper firmware 1.5.1 release source; the original Hybridus/Unleashed build is a
+separate API 88.27 artifact and is not this package.
